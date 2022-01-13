@@ -10,23 +10,27 @@ getAverageAge(building)
 getSingleParentFamilies(building) - gets an array with all the families that only have 1 parent
 getSingleChildGenderFamilies(building) - gets an array with all the families who's children are only of 1 gender
 
-```
+
 Classes
+```
 Building
 
 - constructor(numberOfApartments)
 - families
+```
 
 Family
+```
 - constructor(parent, children) throws ImpossibleChildAgeException 
 - constructor(parent1, parent2, children) throws ImpossibleChildAgeException 
-- parents
-- children
+- parents: Person[]
+- children: List<Person>
 - addChild(child)
-
+```
 
 Person
-
+```
 - name
 - age
 - gender (MALE, FEMALE)
+```
