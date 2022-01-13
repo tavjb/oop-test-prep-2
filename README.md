@@ -5,11 +5,12 @@ Both arrays will be of type 'Person', with the parents array having a max of 2 p
 
 Furthermore, write the following static methods:
 
+```
 getAverageChildAge(building)
 getAverageAge(building)
 getSingleParentFamilies(building) - gets an array with all the families that only have 1 parent
 getSingleChildGenderFamilies(building) - gets an array with all the families who's children are only of 1 gender
-
+```
 
 Classes
 ```
